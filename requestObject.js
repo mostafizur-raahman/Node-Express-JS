@@ -11,6 +11,7 @@ adminRoute.get("/dashboard", (req, res) => {
     console.log(req.path);
     res.status(200).send("This is admin Route.");
 });
+
 adminRoute.post("/dashboard/new-user", (req, res) => {
     // console.log(req.baseUrl);
     console.log(req.path);
